@@ -44,7 +44,6 @@ Process {
                                         @{Name='XlFileFormatName';Expression={$XlFileFormatName}},
                                         @{Name='XlFileFormatValue';Expression={$XlFileFormatValue}}
             $Workbook.Close($false)
-            $XlFileFormat = $null
         }
     }
 }
